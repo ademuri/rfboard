@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:rfboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -225,7 +224,7 @@ F 3 "" H 4400 850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10118194-0001LF:10118194-0001LF J1
+L rfboard-rescue:10118194-0001LF-10118194-0001LF J1
 U 1 1 5A59670D
 P 1500 7350
 F 0 "J1" H 1209 7571 50  0000 L BNN
@@ -244,7 +243,7 @@ NoConn ~ 1000 7450
 Text Notes 600  6750 0    60   ~ 0
 USB connector\n(Power/programming)
 $Comp
-L SparkFun-RF:RFM69CW-915MHZ U2
+L rfboard-rescue:RFM69CW-915MHZ-SparkFun-RF U2
 U 1 1 5A83E74A
 P 4900 1700
 F 0 "U2" H 4500 2250 45  0000 L BNN
@@ -261,7 +260,7 @@ NoConn ~ 5400 1600
 NoConn ~ 5400 1700
 NoConn ~ 4400 2100
 $Comp
-L MIC5504-3.3YM5-T5:MIC5504-3.3YM5-T5 U3
+L rfboard-rescue:MIC5504-3.3YM5-T5-MIC5504-3.3YM5-T5 U3
 U 1 1 5A84F7ED
 P 9850 950
 F 0 "U3" H 9549 1271 50  0000 L BNN
@@ -321,7 +320,7 @@ F 3 "" H 11000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Homebrew:SAMD21E18 U1
+L rfboard-rescue:SAMD21E18-Homebrew U1
 U 1 1 5A8519D5
 P 1750 2150
 F 0 "U1" H 1650 700 60  0000 C CNN
@@ -511,7 +510,7 @@ Text GLabel 1100 1300 0    60   Input ~ 0
 RESET_SW
 NoConn ~ 2200 1600
 $Comp
-L SparkFun-Switches:MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM S1
+L rfboard-rescue:MOMENTARY-SWITCH-SPST-SMD-4.6X2.8MM-SparkFun-Switches S1
 U 1 1 5B41BBBA
 P 1600 5450
 F 0 "S1" H 1400 5550 45  0000 L BNN
@@ -597,7 +596,7 @@ F 3 "" H 5050 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Homebrew:HOLE H3
+L rfboard-rescue:HOLE-Homebrew H3
 U 1 1 5D26F404
 P 6100 7450
 F 0 "H3" H 6209 7503 60  0000 L CNN
